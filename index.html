@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <title>Objetivo: Ficar Monstrão</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+           <img src="cenario-passo0.png" alt="">
+            <p>Você decidiu começar uma jornada para "Ficar Monstrão". Sua primeira escolha é sobre como treinar.</p>
+            <button class="btn-proximo" data-proximo="1">Treinar com amigos</button>
+            <button class="btn-proximo" data-proximo="2">Treinar sozinho</button>
+        </div>
+        
+        <div class="passo" id="passo-1">
+            <img src="cenario-passo1-amigos.png" alt="">
+            <p>Treinando com amigos, você sente que tem mais motivação e apoio, mas será suficiente?</p>
+            <button class="btn-proximo" data-proximo="3">Continuar com os amigos</button>
+            <button class="btn-proximo" data-proximo="4">Mudar para treinar sozinho</button>
+        </div>
+        
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo2-sozinho.png" alt="">
+            <p>Treinando sozinho, você se desafia mais, mas a falta de motivação externa pode pesar. O que fará?</p>
+            <button class="btn-proximo" data-proximo="3">Manter o treino solo</button>
+            <button class="btn-proximo" data-proximo="4">Voltar a treinar com amigos</button>
+        </div>
+        
+        <div class="passo" id="passo-3">
+            <img src="cenario-passo3-noite.de.sono.png" alt="">
+            <p>Ganhando mais horas de sono, você sente uma melhoria geral na disposição. O próximo passo é importante.</p>
+            <button class="btn-proximo" data-proximo="5">Dar tudo de si no treino</button>
+            <button class="btn-proximo" data-proximo="6">Seguir em um ritmo moderado</button>
+        </div>
+        
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4-ser.equilibrado.png" alt="">
+            <p>Se forçar demais, pode ser um erro. Equilíbrio é essencial. Qual será sua escolha?</p>
+            <button class="btn-proximo" data-proximo="6">Manter o equilíbrio</button>
+        </div>
+        
+        <div class="passo" id="passo-5">
+            <img src="cenario-passo5-foco=objetivo.png" alt="">
+            <p>Com foco total no treino, os resultados começam a aparecer, mas o cansaço também.</p>
+            <button class="btn-proximo" data-proximo="7">Persistir apesar do cansaço</button>
+            <button class="btn-proximo" data-proximo="8">Reduzir o ritmo</button>
+        </div>
+        
+        <div class="passo" id="passo-6">
+            <img src="cenario-passo6-intensidade.ou.fraco.png" alt="">
+            <p>Equilibrando treino e descanso, você mantém um progresso constante, mas lento. O que fará agora?</p>
+            <button class="btn-proximo" data-proximo="7">Aumentar a intensidade</button>
+            <button class="btn-proximo" data-proximo="8">Continuar com cautela</button>
+        </div>
+        
+        <div class="passo" id="passo-7">
+            <img src="cenario-passo7-desanimo.no.caminho.png" alt="">
+            <p>Persistindo, você alcança resultados notáveis, mas a tentação de desistir ainda existe. Qual é sua decisão?</p>
+            <button class="btn-proximo" data-proximo="9">Seguir firme até o final</button>
+            <button class="btn-proximo" data-proximo="10">Desistir</button>
+        </div>
+        
+        <div class="passo" id="passo-8">
+            <img src="cenario-passo8-treinar.fraco.png" alt="">
+            <p>Reduzindo o ritmo, você evita o cansaço extremo, mas o progresso é mais lento.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir firme até o final</button>
+        </div>
+        
+        <div class="passo" id="passo-9">
+            <img src="cenario-passo9-voce.alcançou.seu.objetivo.png" alt="">
+            <p>Parabéns! Você persistiu até o fim e alcançou seu objetivo de "Ficar Monstrão".</p>
+        </div>
+        
+        <div class="passo" id="passo-10">
+            <img src="cenario-passo10.você.desistiu.png" alt="">
+            <p>Você desistiu. Talvez da próxima vez consiga ir até o final!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
